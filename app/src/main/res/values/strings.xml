@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Rogerio_3</string>
+    <string name="app_name">Localize-se Vale</string>
+    <string name="bares">BARES</string>
+    <string name="restaurantes">RESTAURANTES</string>
+    <string name="turismo">TURISMO</string>
+    <string name="hot_is">HOTÉIS</string>
+    <string name="todo">TODO</string>
+
+
 </resources>
