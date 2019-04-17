@@ -24,6 +24,32 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button bt_restaurente = (Button) findViewById(R.id.bt_restaurante);
+        bt_restaurente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,restaurante.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bt_turismo = (Button) findViewById(R.id.bt_turismo);
+        bt_turismo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,turismo.class);
+                startActivity(intent);
+            }
+        });
+
+        Button bt_hotel = (Button) findViewById(R.id.bt_hotel);
+        bt_hotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,hotel.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

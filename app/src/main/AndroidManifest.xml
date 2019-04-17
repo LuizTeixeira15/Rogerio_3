@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_nassau_3"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".bar"></activity>
+        <activity android:name=".restau"></activity>
+        <activity android:name=".hotel" />
+        <activity android:name=".turismo" />
+        <activity android:name=".restaurante" />
+        <activity android:name=".bar" />
         <activity android:name=".Bares" />
         <activity android:name=".MainActivity">
             <intent-filter>
