@@ -1,11 +1,11 @@
 package com.example.rogerio_3;
 
 import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 public class Bares extends AppCompatActivity {
 
@@ -14,13 +14,46 @@ public class Bares extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bares);
 
-       Button bt_quiosque = (Button) findViewById(R.id.bt_quiosque);
+        Button bt_quiosque = (Button) findViewById(R.id.bt_quiosque);
         bt_quiosque.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Bares.this,bar.class);
-                startActivity(intent);
+                Intent it = new Intent(Bares.this,bar_quiosque.class);
+                startActivity(it);
             }
         });
+
+        Button bt_girlene = (Button) findViewById(R.id.bt_girlene);
+        bt_girlene.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Bares.this, bar_girlene.class);
+                startActivity(it);
+            }
+        });
+
+        Button bt_barcanas = (Button) findViewById(R.id.bt_barcanas);
+        bt_barcanas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Bares.this,bar_barcanas.class);
+                startActivity(it);
+            }
+        });
+
+        Button bt_mofadao = (Button) findViewById(R.id.bt_mofadao);
+        bt_mofadao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Bares.this,bar_mofadao.class);
+                startActivity(it);
+            }
+        });
+
+
+
+
+
+
     }
 }

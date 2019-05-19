@@ -17,7 +17,7 @@ public class restaurante extends AppCompatActivity {
         bt_monjopina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(restaurante.this,restau.class);
+                Intent it = new Intent(restaurante.this, ResMonjopina.class);
                 startActivity(it);
             }
         });

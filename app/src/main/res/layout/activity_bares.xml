@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/backgroundfesta"
     tools:context=".Bares">
 
+        <TextView
+            android:padding="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bares"
+            android:textAppearance="@style/Widget.AppCompat.Spinner.DropDown"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textAlignment="center"
+        />
+
+
+
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_quiosque"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="160dp"
         android:text="Quiosque Chopp Brahma"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_mofadao"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -26,6 +42,7 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_girlene"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -35,6 +52,7 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_barcanas"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -43,13 +61,6 @@
         app:layout_constraintTop_toBottomOf="@+id/bt_girlene"
         tools:layout_editor_absoluteX="0dp" />
 
-    <ImageView
-        android:id="@+id/img_nassau"
-        android:layout_width="0dp"
-        android:layout_height="257dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@+id/bt_barcanas"
-        app:srcCompat="@drawable/nassau1"
-        tools:layout_editor_absoluteX="0dp" />
+
 
 </android.support.constraint.ConstraintLayout>

@@ -9,11 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_nassau_3"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".restau"></activity>
+        <activity android:name=".ResFotosMonjopina"></activity>
+        <activity android:name=".Agenda" />
+        <activity android:name=".BarFotosQuiosque" />
+        <activity android:name=".bar_quiosque" />
+        <activity android:name=".bar_barcanas" />
+        <activity android:name=".bar_girlene" />
+        <activity android:name=".ResMonjopina" />
         <activity android:name=".hotel" />
         <activity android:name=".turismo" />
         <activity android:name=".restaurante" />
-        <activity android:name=".bar" />
+        <activity android:name=".bar_mofadao" />
         <activity android:name=".Bares" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -22,6 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

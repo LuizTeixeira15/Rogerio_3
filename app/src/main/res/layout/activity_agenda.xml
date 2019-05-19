@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfesta"
+    tools:context=".Agenda">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Agenda não divulgada"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center" />
+
+</android.support.constraint.ConstraintLayout>

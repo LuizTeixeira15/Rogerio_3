@@ -4,18 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundrestaurante1"
     tools:context=".restaurante">
 
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_monjopina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="150dp"
         android:text="Monjopina"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="16dp" />
 
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_lampiao"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -25,6 +28,7 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_peixada"
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -34,21 +38,13 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
+        style="@android:style/Widget.Holo.Light.Button.Inset"
         android:id="@+id/bt_barcanas"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:text="Bar'Canas Petiscaria e Restaurante"
         app:layout_constraintTop_toBottomOf="@+id/bt_peixada"
-        tools:layout_editor_absoluteX="0dp" />
-
-    <ImageView
-        android:id="@+id/img_nassau"
-        android:layout_width="0dp"
-        android:layout_height="257dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintTop_toBottomOf="@+id/bt_barcanas"
-        app:srcCompat="@drawable/nassau1"
         tools:layout_editor_absoluteX="0dp" />
 
 </android.support.constraint.ConstraintLayout>
