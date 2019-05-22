@@ -61,6 +61,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
+                    android:id="@+id/gps"
                     android:src="@drawable/gps10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -138,6 +139,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
+                    android:id="@+id/card"
                     android:src="@drawable/cardapio_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -176,6 +178,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
+                    android:id="@+id/agenda"
                     android:src="@drawable/agenda2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

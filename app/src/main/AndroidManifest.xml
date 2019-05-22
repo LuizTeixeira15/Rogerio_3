@@ -2,21 +2,28 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rogerio_3">
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_nassau_3"
+        android:icon="@drawable/logo2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_nassau_3"
+        android:roundIcon="@drawable/logo2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResFotosMonjopina"></activity>
+        <activity android:name=".RestCardapio"></activity>
+        <activity android:name=".HotelPetrolinaFotos" />
+        <activity android:name=".HotelPetrolina" />
+        <activity android:name=".ResFotosMonjopina" />
+        <activity android:name=".reserva" />
         <activity android:name=".Agenda" />
         <activity android:name=".BarFotosQuiosque" />
         <activity android:name=".bar_quiosque" />
         <activity android:name=".bar_barcanas" />
         <activity android:name=".bar_girlene" />
         <activity android:name=".ResMonjopina" />
-        <activity android:name=".hotel" />
         <activity android:name=".turismo" />
         <activity android:name=".restaurante" />
         <activity android:name=".bar_mofadao" />
